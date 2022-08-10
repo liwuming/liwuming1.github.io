@@ -1,62 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>liwuming'blog  Blog</title>
-        <link>https://liwuming.github.io/blog</link>
-        <description>liwuming'blog  Blog</description>
-        <lastBuildDate>Tue, 09 Aug 2022 10:41:41 GMT</lastBuildDate>
+        <title>My Site Blog</title>
+        <link>https://liwuming.ibiancheng.net/blog</link>
+        <description>My Site Blog</description>
+        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <language>en</language>
-        <item>
-            <title><![CDATA[计算机基础]]></title>
-            <link>https://liwuming.github.io/blog/文件系统</link>
-            <guid>/文件系统</guid>
-            <pubDate>Tue, 09 Aug 2022 10:41:41 GMT</pubDate>
-            <description><![CDATA[计数制]]></description>
-            <content:encoded><![CDATA[<p>计数制</p><h1>运维的职责</h1><p>用户体验好
-不宕机
-数据安全+网络安全</p><h1>linux</h1><p>centos7-x64-mini-.iso</p><h1>磁盘分区与文件系统</h1><p>磁盘管理</p><p>为什么需要进行分区？</p><p>如何进行分区？</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="机械磁盘">机械磁盘<a class="hash-link" href="#机械磁盘" title="Direct link to heading">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="磁柱与扇区">磁柱与扇区<a class="hash-link" href="#磁柱与扇区" title="Direct link to heading">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="分区的两只方式">分区的两只方式<a class="hash-link" href="#分区的两只方式" title="Direct link to heading">​</a></h2><p>MBR(MSDOS)与GPT</p><p>磁盘分区完毕之后还需要进行格式化，那为什么需要进行格式化呢？</p><p>一般来说，一个分区只能格式化为一个文件系统，所以
-但由于新技术的</p><h1>文件系统</h1><p>inode--存储inode区
-data block--存储数据区
-superblock--会记录整个文件系统的整体信息，包括inode与block的总量，使用量，剩余量</p><h1>为磁盘设备分区</h1><p>分区表有两种类型，MBR和GPT
-parted，一个文本命令工具，支持MBR和GPT</p><p>查看分区表
-parted -l</p><p>在parted工具中，称MBR分区表为msdos，</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[硬件配置]]></title>
-            <link>https://liwuming.github.io/blog/虚拟主机安装linux</link>
-            <guid>/虚拟主机安装linux</guid>
-            <pubDate>Tue, 09 Aug 2022 10:41:41 GMT</pubDate>
-            <description><![CDATA[nat，]]></description>
-            <content:encoded><![CDATA[<p>nat，
-仅本地
-桥接</p><h1>安装</h1><p>配置自定义分区
-/boot 1g
-/swap 内存的2倍
-/	</p><p>GPT分区表最好要拥有bois boot分区槽
-/boisboot 2m,bois使用，没有挂载点
-/boot
-/
-/home
-/swap</p><h1>网络配置</h1><p>查看本地网络地址</p><p>查看本机ip地址
-ip addr | grep</p><p>grep命令</p><p>获取ip地址</p><p>bash正则与js正则的区别</p><p>ip addr | grep "(<!-- -->[0-9]<!-- -->|<!-- -->[1-9][0-9]<!-- -->|1<!-- -->[0-9]<!-- -->{2}|2<!-- -->[0-4][0-9]<!-- -->|2<!-- -->[0-5]<!-- -->.<!-- -->)"</p>]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[linux命令学习]]></title>
-            <link>https://liwuming.github.io/blog/2022/07/27/</link>
-            <guid>/2022/07/27/</guid>
-            <pubDate>Wed, 27 Jul 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[ls命令]]></description>
-            <content:encoded><![CDATA[<p>ls命令
--a,显示所有文件，在linux系统下，以.开头的文件为隐藏文件，ls命令默认不会显示，可使用该参数以显示所有文件及目录</p><p>--color=auto，
---full-time，显示完整的时间</p><p>查看命令别名
-type
-alias</p><h1>文件与文件系统</h1><h2 class="anchor anchorWithStickyNavbar_LWe7" id="文件">文件<a class="hash-link" href="#文件" title="Direct link to heading">​</a></h2><h2 class="anchor anchorWithStickyNavbar_LWe7" id="目录">目录<a class="hash-link" href="#目录" title="Direct link to heading">​</a></h2><ol><li><p>cd,change directory,切换目录</p></li><li><p>pwd,print work directory,打印工作目录</p></li></ol><p>-P,打印完整工作路径，主要针对连接文件</p><ol start="3"><li>mkdir，新建目录</li></ol><ol start="4"><li></li></ol><h2 class="anchor anchorWithStickyNavbar_LWe7" id="文件系统">文件系统<a class="hash-link" href="#文件系统" title="Direct link to heading">​</a></h2>]]></content:encoded>
-        </item>
+        <language>zh-Hans</language>
         <item>
             <title><![CDATA[Welcome]]></title>
-            <link>https://liwuming.github.io/blog/welcome</link>
+            <link>https://liwuming.ibiancheng.net/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
@@ -67,16 +21,16 @@ alias</p><h1>文件与文件系统</h1><h2 class="anchor anchorWithStickyNavbar_
         </item>
         <item>
             <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://liwuming.github.io/blog/mdx-blog-post</link>
+            <link>https://liwuming.ibiancheng.net/blog/mdx-blog-post</link>
             <guid>mdx-blog-post</guid>
             <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_S0QG"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p><div class="theme-admonition theme-admonition-tip alert alert--success admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>提示</div><div class="admonitionContent_S0QG"><p>Use the power of React to create interactive blog posts.</p><div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="复制代码到剪贴板" title="复制" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><button>Click me!</button></div></div>]]></content:encoded>
             <category>docusaurus</category>
         </item>
         <item>
             <title><![CDATA[Long Blog Post]]></title>
-            <link>https://liwuming.github.io/blog/long-blog-post</link>
+            <link>https://liwuming.ibiancheng.net/blog/long-blog-post</link>
             <guid>long-blog-post</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[This is the summary of a very long blog post,]]></description>
@@ -86,7 +40,7 @@ alias</p><h1>文件与文件系统</h1><h2 class="anchor anchorWithStickyNavbar_
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
-            <link>https://liwuming.github.io/blog/first-blog-post</link>
+            <link>https://liwuming.ibiancheng.net/blog/first-blog-post</link>
             <guid>first-blog-post</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
