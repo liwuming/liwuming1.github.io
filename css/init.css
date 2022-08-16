@@ -22,12 +22,12 @@ main>.container{margin:15px auto;padding:10px 30px 20px 30px;width:960px!importa
 
 
 #detail>.markdown>h1,
-#detail>.markdown>h1:first-child{margin:1rem 0;font-size:2rem;}
-#detail h2{margin:0.85rem 0;font-size:1.8rem;}
-#detail h3{margin:0.618rem 0;font-size:1.6rem;}
-#detail h4{margin:0.618rem 0;font-size:1.8rem;}
-#detail h5{margin:1rem 0 0.5rem;font-size:1.6rem;}
-#detail h6{margin:0.8rem 0 0.5rem;font-size:1.4rem;}
+#detail>.markdown>h1:first-child{margin:2.3rem 0 0.618rem  0;font-size:2rem;}
+#detail h2{margin:2rem 0 0.618rem 0;font-size:1.8rem;}
+#detail h3{margin:1.75rem 0 0.618rem 0;font-size:1.6rem;}
+#detail h4{margin:1.5rem 0 0.618rem 0;font-size:1.8rem;}
+#detail h5{margin:1.25rem 0 0.618rem 0;;font-size:1.6rem;}
+#detail h6{margin:1rem 0 0.618rem 0;font-size:1.4rem;}
 #detail>.markdown>header{margin:0 -30px;padding:0 30px;
 height:62px;line-height:6px;
 border-bottom:3px solid #ddd;}
@@ -57,3 +57,15 @@ font-size:2.3rem;font-weight:500;
   position: relative;
 }
 
+#detail .markdown>table{width:100%;display:table;}
+#detail .markdown>table th,#detail .markdown>table td{display:table-cell;}
+
+
+/*
+#detail .markdown>table,
+#detail .markdown>table tr>td,
+#detail .markdown>table tr>th,
+#detail .markdown>table>thead>tr,
+#detail .markdown>table>tbody>tr{display:inline-block;}*/
+#detail .markdown .admonitionContent_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module > p:first-child {margin-top: 0!important;}
+#detail .markdown .admonitionContent_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-styles-module > p:last-child {margin-bottom: 0!important;}
